@@ -16,6 +16,7 @@ def assign_rooms(speaker_list)
   speaker_list.each_with_index do |speaker, room|
   puts "Hello, #{speaker}! You'll be assigned to #{room}!"
   end
+  return speaker_rooms
 end
 
 def printer(print_badges_rooms)
