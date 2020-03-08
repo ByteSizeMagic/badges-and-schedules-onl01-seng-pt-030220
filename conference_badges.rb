@@ -21,6 +21,6 @@ def assign_rooms(speaker_list)
 end
 
 def printer
-  print badge_messages
-  print speaker_rooms
+  puts badge_messages
+  puts speaker_rooms
 end
