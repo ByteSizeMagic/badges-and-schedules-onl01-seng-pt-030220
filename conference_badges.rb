@@ -12,7 +12,10 @@ def batch_badge_creator(speaker)
 end
 
 def assign_rooms(speaker_list)
-
+  speaker_rooms = []
+  speaker_rooms.each_with_index do |speaker, room|
+  puts "Hello, #{speaker}! You'll be assigned to #{room}!"
+  end
 end
 
 def printer(print_badges_rooms)
